@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Assignment 1">
+<meta name="keywords" content="Bird Park, Assignment, Basic HTML, Basic CSS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+
+  body{
+    background-color: white;
+    margin: 0
+  }
+
+h1{font-size: 90px;
+  text-align: left;}
+
+h2{font-size: 60px;
+text-align: center;}
+
+
+p{font-size: 20px;
+  text-align: center;}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Sticky for navigation bar*/
+  div.sticky {
+    position: sticky;
+    top: 0;
+  }
+
+/*navigation bar*/
+
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: -80px;
+  }
+
+  li {
+    float: left;
+    width: 25%;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Lucida Bright;
+  }
+
+  li a:hover {
+    background-color: #808080;
+  }
+
+  * {
+  box-sizing: border-box;
+}
+
+/*link colour*/
+a:link {
+  color: #368229;
+  background-color: transparent;
+  text-decoration: none;}
+
+/*pic pic thing*/
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+</style>
+</head>
+
+
+<body>
+
+<!---- header---->
+  <h1 style="color:#462215">Singapore Zoological Gardens</h1>
+
+<!---- navigation bar---->
+  <div class="sticky" style="z-index:2;">
+    <ul>
+        <li><a href="#aboutus"><b>About Us</b></a></li>
+        <li><a href="#getinvolved"><b>Get Involved</b></a></li>
+        <li><a href="#buytickets"><b>Tickets</b></a></li>
+        <li><a href="#findme"><b>Locate Us</b></a></li>
+    </ul>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<img src="zoo.jpg" alt="Zoo" width="1000" height="600">
+
+<!---- about us---->
+<h2 id=aboutus style="color:#368229"><u>About us</u></h2>
+
+<p>Wildlife Reserves Singapore (WRS) is dedicated to the management of world-leading zoological institutions—Jurong Bird Park, Night Safari, River Safari and Singapore Zoo—that aim to inspire people to value and conserve biodiversity by providing meaningful and memorable wildlife experiences.
+A self-funded organisation, WRS focuses on protecting biodiversity in Singapore and Southeast Asia through collaborations with like-minded partners, organisations and institutions. Each year, the four attractions welcome 4.6 million visitors.</p>
+
+
+<img src="tiger.jpg" alt="Zoo" width="1000" height="600">
+
+<!---- get involved---->
+<h2 id=getinvolved style="color:#368229"><u>Get involved</u></h2>
+<p>For many years, Wildlife Reserves Singapore (WRS) has actively played a part in animal conservation efforts globally. Through these projects, many endangered and threatened species can have a fighting chance in ensuring their survival for the next generation and beyond.</p>
+
+<img src="volunteer.jpg" alt="Zoo" width="1000" height="600">
+
+<!---- buy tickets---->
+<h2 id=buytickets style="color:#368229"><u>Tickets</u></h2>
+<p> Singapore Zoo Admission
+Discover the world's best rainforest zoo, home to over 300 species of mammals, birds and reptiles.
+
+In line with safe distancing measures, you will need to select a date and arrival time to visit the park.
+
+<br>
+<br>
+<a href="https://www.wrs.com.sg/en/ticketing/admission-and-rides/tickets-selection.html" target="_blank">Click here to purchase</a>
+</p>
+<br>
+<br>
+<br>
+
+<img src="elephant.jpg" alt="Zoo" width="1000" height="600">
+
+<!---- locate us---->
+<h2 id=findme style="color:#368229"><u>Locate Us</u></h2>
+  <h4 style="text-align: center;">
+    <iframe width="1000" height="600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7106.913219697885!2d103.78702791082856!3d1.4041546618930494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da13d9102adcaf%3A0xb414fac8a43b1b91!2sSingapore%20Zoo!5e0!3m2!1sen!2ssg!4v1617283932433!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></h4>
+<hr>
+<h2 style="color:#368229">Visit Me</h2>
+
+    <!-- Photo Grid -->
+    <div class="row">
+      <div class="column">
+        <img src="image1.jpg" style="width:100%">
+        <img src="image2.jpg" style="width:100%">
+        <img src="image3.jpg" style="width:100%">
+        <img src="image9.jpg" style="width:100%">
+        <img src="image4.jpg" style="width:100%" height="550px">
+      </div>
+      <div class="column">
+        <img src="image8.jpg" style="width:100%">
+        <img src="image6.jpg" style="width:100%">
+        <img src="image7.jpg" style="width:100%">
+        <img src="image5.jpg" style="width:100%">
+        <img src="image10.jpg" style="width:100%">
+  </div>
+  </div>
+
+  </body>
+  </html>
